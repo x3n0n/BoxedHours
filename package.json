@@ -1,0 +1,47 @@
+{
+    "author": "cdevilbiss@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "bxhr",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Boxed Hours",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "bg",
+            "fg",
+            "dots_per_hour"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu_icon.png",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "737c8745-23d6-4f42-b38c-2b8263f18245",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.9.0"
+}
